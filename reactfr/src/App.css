@@ -1,0 +1,40 @@
+
+.App {
+  text-align: center;
+}
+
+.navitems {
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.maintitle {
+  margin-left: 20px; 
+}
+
+.hcol {
+  margin: 0px; 
+}
+
+.navbutton ul {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+}
+.link-style{
+  text-decoration: none;
+  color: white;
+}
+.navbutton li {
+  display: inline-block; 
+  padding: 10px 16px;
+}
+
+.navbutton li:hover {
+  background-color: #333;
+  cursor: pointer; 
+}
